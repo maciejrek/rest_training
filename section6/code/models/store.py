@@ -9,7 +9,7 @@ class StoreModel(db.Model):
 
     items = db.relationship('ItemModel', lazy='dynamic') #lazy because it create item objects each time we create the store
 
-    def __init__(self, name, price):
+    def __init__(self, name):
         self.name = name
 
     def json(self):
