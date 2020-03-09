@@ -1,0 +1,18 @@
+GET - The HTTP GET method is used to **read** (or retrieve) a representation of a resource.
+      [retrieve something]
+
+POST - The POST verb is most-often utilized to **create** new resources.
+       [Receive data and use it]
+
+DELETE - DELETE is used to **delete** a resource identified by a URI
+         [Remove something]
+
+PUT - PUT is most-often utilized for **update** capabilities,
+      PUT-ing to a known resource URI with the request body containing the newly-updated
+      representation of the original resource.
+      [Make sure something is there]
+
+PATCH - PATCH is used for **modify** capabilities. The PATCH request only needs to contain
+        the changes to the resource, not the complete resource.
+
+source : https://www.restapitutorial.com/lessons/httpmethods.html , HTTP Verbs
